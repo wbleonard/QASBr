@@ -1,21 +1,21 @@
 [
     {
-        "name": "incoming_message",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "slackResponse",
-        "private": false,
-        "run_as_system": true
-    },
-    {
         "name": "testdummy",
         "private": false,
         "run_as_system": true
     },
     {
         "name": "callRasa",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "incoming_message",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "slackResponse",
         "private": false,
         "run_as_system": true
     }
