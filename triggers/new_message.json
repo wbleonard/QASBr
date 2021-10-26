@@ -1,0 +1,27 @@
+{
+    "id": "61781dc8c7ffd3a02cc38da0",
+    "name": "new_message",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE"
+        ],
+        "database": "qasbr",
+        "collection": "messages",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": false,
+        "unordered": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "incoming_message"
+            }
+        }
+    }
+}
