@@ -10,7 +10,11 @@
         "database": "qasbr",
         "collection": "messages",
         "service_name": "mongodb-atlas",
-        "match": {},
+        "match": {
+            "event.user": {
+                "$ne": "U02K5BNCK52"
+            }
+        },
         "project": {},
         "full_document": true,
         "full_document_before_change": false,
