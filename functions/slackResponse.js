@@ -17,7 +17,7 @@ var options = {
   'hostname': 'slack.com',
   'path': '/api/chat.postMessage',
   'headers': {
-    'Authorization': 'Bearer xoxb-2672762145328-2651396427172-v5NOnTe6Ckc7oSs5p4dQQJhI',
+    'Authorization': 'Bearer xoxb-2672762145328-2651396427172-Q470HUBxkhmyxzB8q6K87syT',
     'Content-Type': 'application/json'
   },
   'maxRedirects': 20

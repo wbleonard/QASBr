@@ -7,6 +7,9 @@ exports = async function(changeEvent) {
   //const doc_id = changeEvent.documentKey._id;
   const fullDoc = changeEvent.fullDocument;
   var changeType = changeEvent.operationType;
+  if(fullDoc.event.bot_id){
+    return true
+  }
   // get Handle to collections
   const gMessageColl = context.services.get("mongodb-atlas").db("qasbr").collection("messages");
   const gMetaColl = context.services.get("mongodb-atlas").db("qasbr").collection("metadata");
