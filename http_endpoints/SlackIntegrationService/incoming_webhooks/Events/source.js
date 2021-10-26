@@ -44,9 +44,9 @@ exports = async function(payload, response) {
     }
     */
     
-    if (message.event.bot_id != null){
-      return message;
-    }
+    // if (message.event.bot_id != null){
+    //   return message;
+    // }
 
     dbname = "qasbr";
     db = context.services.get("mongodb-atlas").db(dbname);
